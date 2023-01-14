@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+    font-family: 'Gotham', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@import 'block/button';
+@import 'block/01_promo/promo';
+@import 'block/02_request/request';
+@import 'block/03_services/services';
+@import 'block/04_about/about';
+@import 'block/05_price/price';
+@import 'block/06_steps/steps';
+@import 'block/07_clients/clients';
+@import 'block/08_karte/karte';
+@import 'block/09_footer/footer';

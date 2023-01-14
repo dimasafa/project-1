@@ -1,0 +1,105 @@
+.request {
+    min-height: 770px;
+    background: url('../../../img/02/bg.png') top no-repeat;
+    &__header {
+        font-size: 35px;
+        line-height: 24px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: -0.025em;
+        color: #ffffff;
+        text-align: center;
+        padding-top: 110px;
+    }
+    &__subheader {
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: none;
+        letter-spacing: normal;
+        text-align: center;
+        margin-top: 10px;
+        color: #ffffff;
+    }
+    &__orderForm {
+        display: block;
+        margin: 0 auto;
+        width: 1084px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 33px;
+        input {
+            width: 281px;
+            height: 46px;
+            background-color: #ffffff;
+            border-color: #ffffff;
+            padding-left: 41px;
+        }
+        img {
+            position: absolute;
+
+        }
+        &__input_img1 {
+            left: 18px;
+            top: 16px;
+        }
+        &__input_img2 {
+            left: 307px;
+            top: 17px;
+        }
+        &__input_img3 {
+            left: 600px;
+            top: 17px;
+        }
+    }
+    &__input_btn {
+        width: 211px;
+        height: 46px;
+        background-color: #ffbb42;
+        border: #ffbb42;
+
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__image {
+        position: relative;
+    }
+    &__laptop__img {
+        display: block;
+        margin: 0 auto;
+        margin-top: 67px;
+    }
+    &__laptop__photo_active {
+        position: absolute;
+        top: 19px;
+        left: 348px;
+    }
+    &__laptop__photo {
+        display: none;
+    }
+    &__pointBox {
+        display: block;
+        margin: 0 auto;
+        margin-top: 22px;
+        width: 60px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__pointBox__pointe_active {
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 2px solid #1ca8dd;
+    }
+    &__pointBox__pointe {
+        width: 15px;
+        height: 15px;
+        background-color: #fff;
+        border-radius: 50%;
+        border: 2px solid #dedfe0;
+    }
+}

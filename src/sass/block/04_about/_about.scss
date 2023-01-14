@@ -1,0 +1,41 @@
+.about {
+    min-height: 623px;
+    background-color: #ffc155;
+    &__wrapper {
+        display: flex;
+    }
+    &__text {
+        padding-left: 80px;
+        padding-top: 164px;
+    }
+    &__title {
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: -0.025em;
+        color: #ffffff; 
+    }
+    &__descr {
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #ffffff;
+        width: 505px;
+        padding-top: 28px;
+    }
+    &__btn {
+        margin-top: 33px;
+        width: 145px;
+        height: 46px;
+        background-color: rgba(231,173,72,0.0);
+        border: 1px solid #e7ad48;
+
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+
+    }
+}

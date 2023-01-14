@@ -1,0 +1,116 @@
+.karte {
+    min-height: 888px;
+    position: relative;
+    &__header {
+        padding-top: 154px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 22px;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: -0.025em;
+        color: #394b50;
+    }
+    &__subheader {        
+        padding-top: 10px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 300;
+        text-transform: none;
+        letter-spacing: normal;
+    }
+    &__orderForm {
+        display: block;
+        margin: 0 auto;
+        width: 934px;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 38px;
+        input {
+            height: 47px;
+            background-color: #ffffff;
+            border: 1px solid #cbcbcb;
+            padding-left: 44px;
+        }
+        &__InputName {
+            width: 308px;
+        }
+        &__InputEmail {
+            width: 388px;
+        }
+
+        img {
+            align-self: flex-start;
+            position: absolute;
+        }
+        &__nameLogo {
+            left: 20px;
+            top: 16px;
+        }
+        &__emailLogo {
+            left: 335px;
+            top: 17px;
+        }
+    } 
+    &__input-btn {
+        width: 218px;
+        height: 47px;
+        background-color: #ffbb42;
+        border: none;
+        border-radius: 5px;
+
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__karte {
+        margin-top: 53px;
+    }
+    &__adressbox {
+        position: absolute;
+    }
+    &__rund {
+        position: absolute;
+        top: -520px;
+        left: 430px;
+    }
+    &__logo {
+        position: absolute;
+        top: -215px;
+        left: 550px;
+    }
+    &__textbox {
+        position: absolute;
+        top: -460px;
+        left: 497px;
+    }
+    &__text-1 {
+        text-align: center;
+        font-size: 15px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__text-2 {
+        margin-top: 8px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: none;
+        color: #aeb7ba;
+    }
+    &__text-3 {
+        margin-top: 5px;
+        text-align: center;
+        font-size: 13px;
+        line-height: 24px;
+        font-weight: 400;
+        text-transform: none;
+        color: #ffbb42;
+    }
+}
