@@ -63,13 +63,13 @@
             text-transform: none;
             color: #818b95;
         }
-        &__line {
+        &__line-1, &__line-2, &__line-3 {
             margin: 0 auto;
             width: 329px;
             height: 1px;
             background-color: #e2e9f0;
         }
-        &__text {
+        &__text-1, &__text-2, &__text-3 {
             text-align: center;
             font-size: 13.5px;
             line-height: 40px;
@@ -124,13 +124,13 @@
             text-transform: none;
             color: #ffffff;
         }
-        &__line_active {
+        &__line-1_active, &__line-2_active, &__line-3_active {
             margin: 0 auto;
             width: 329px;
             height: 1px;
             background-color: #8eb8e2;
         }
-        &__text_active {
+        &__text-1_active, &__text-2_active, &__text-3_active {
             text-align: center;
             font-size: 13.5px;
             line-height: 40px;
