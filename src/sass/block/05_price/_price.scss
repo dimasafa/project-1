@@ -44,6 +44,7 @@
             font-weight: 300;
             text-transform: uppercase;
             color: #818b95;
+            pointer-events: none;
         }
         &__sum {
             padding-top: 30px;
@@ -53,6 +54,7 @@
             font-weight: 500;
             text-transform: uppercase;
             color: #ffbb42;
+            pointer-events: none;
         }
         &__per_month {
             padding-top: 10px;
@@ -62,12 +64,14 @@
             font-weight: 300;
             text-transform: none;
             color: #818b95;
+            pointer-events: none;
         }
         &__line-1, &__line-2, &__line-3 {
             margin: 0 auto;
             width: 329px;
             height: 1px;
             background-color: #e2e9f0;
+            pointer-events: none;
         }
         &__text-1, &__text-2, &__text-3 {
             text-align: center;
@@ -76,6 +80,7 @@
             font-weight: 400;
             text-transform: uppercase;
             color: #b5bbc1;
+            pointer-events: none;
         }
         &__btn {
             display: block;

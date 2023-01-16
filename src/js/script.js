@@ -103,7 +103,6 @@ window.addEventListener('DOMContentLoaded', function(){
     let priceBoxText2 = document.querySelectorAll('.price__box__text-2');
     let priceBoxText3 = document.querySelectorAll('.price__box__text-3');
 
-    let buttons = document.querySelectorAll('.price__box__btn');
 
     
     function hidePrice() {
@@ -173,8 +172,8 @@ window.addEventListener('DOMContentLoaded', function(){
     priceParent.addEventListener('click', function(event) {
         const target = event.target;
 
-        if(target && target.classList.contains('price__box__btn')) {
-            buttons.forEach((item, i) => {
+        if(target && target.classList.contains('price__box')) {
+            priceBox.forEach((item, i) => {
                 if(target === item) {
                     hidePrice();
                     showPrice(i);
@@ -236,7 +235,35 @@ window.addEventListener('DOMContentLoaded', function(){
         });
     }
 
-});
+// modal
 
+    const modalTrigger = document.querySelectorAll('[data-modal]');
+    const close = document.querySelector('[data-close]');
+
+    const modal = document.querySelector('.modal');
+
+    modalTrigger.forEach(item => {
+        item.addEventListener('click', openModal);
+    });
+
+    function closeModal() {
+        modal.style.display = "none";
+        document.body.style.overflow = '';
+    }
+
+    function openModal() {
+        modal.style.display = "block";
+        document.body.style.overflow = 'hidden';
+    }
+
+    close.addEventListener('click', closeModal);
+
+    modal.addEventListener('click', (e) => {
+        if(e.target === modal) {
+            closeModal();
+        }
+    });
+
+});
 
 

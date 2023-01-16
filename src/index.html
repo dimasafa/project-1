@@ -146,7 +146,7 @@
             <div class="price__subheader">Lorem Ipsum is simply dummy text of the printing typesetting.</div>
             <div class="price__wrapper">
                 <div class="price__box">
-                    <div class="price__box__title">Basic plan</div>
+                    <div display="inline" class="price__box__title">Basic plan</div>
                     <div class="price__box__sum">$22</div>
                     <div class="price__box__per_month">per month</div>
                     <div class="price__box__line-1"></div>
@@ -155,7 +155,7 @@
                     <div class="price__box__text-2">8 hour support</div>
                     <div class="price__box__line-3"></div>
                     <div class="price__box__text-3">Custom Cloud Services</div>
-                    <button class="price__box__btn">Get Started</button>
+                    <button class="price__box__btn" data-modal>Get Started</button>
                 </div>
                 <div class="price__box">
                     <div class="price__box__title">Premium plan</div>
@@ -167,7 +167,7 @@
                     <div class="price__box__text-2">100MB Storage</div>
                     <div class="price__box__line-3"></div>
                     <div class="price__box__text-3">Custom Cloud Services</div>
-                    <button class="price__box__btn">Get Started</button>
+                    <button class="price__box__btn" data-modal>Get Started</button>
                 </div>
                 <div class="price__box">
                     <div class="price__box__title">Gold plan</div>
@@ -179,7 +179,7 @@
                     <div class="price__box__text-2">24 hour support</div>
                     <div class="price__box__line-3"></div>
                     <div class="price__box__text-3">Custom Cloud Services</div>
-                    <button class="price__box__btn">Get Started</button>
+                    <button class="price__box__btn" data-modal>Get Started</button>
                 </div>
             </div>
         </div>
@@ -220,7 +220,7 @@
                         
                     </div>
                 </div>
-                <button class="steps__btn">Get start Now</button>
+                <button class="steps__btn" data-modal>Get start Now</button>
             </div>
         </div>
     </section>
@@ -328,8 +328,22 @@
             </div>
             <div class="footer__bottom">All contents © copyright 2014 Business Theme. All rights reserved Designed by : akhilwebfolio</div>
         </div>
-
     </section>
+
+    <div class="modal">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div class="modal__close" data-close>&times;</div>
+                    <div class="modal__title">Wir werden mit Ihnen später kontaktieren!</div>
+                    <input required required placeholder="Full Name" name="name" class="modal__input">
+                    <input required placeholder="Email Address" name="email" type="email" class="modal__input">
+                    <input required placeholder="Phone Number" name="phone" type="phone" class="modal__input">
+                    <button class="modal__input_btn">Request a quote</button>
+                </form>
+            </div>
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
