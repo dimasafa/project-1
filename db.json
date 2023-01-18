@@ -1,5 +1,53 @@
 {
 
+  "clients": [
+    {
+      "src": "img/07/photo_1.png",
+      "alt": "photo_1",
+      "descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
+      "name": "Darwin Michle, ",
+      "stelle": "Project manager",
+      "parent": ".client__wrapper",
+      "id": 1
+    },
+    {
+      "src": "img/07/photo_2.png",
+      "alt": "photo_2",
+      "descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen book.",
+      "name": "Madam Elisabath,  ",
+      "stelle": "Creative Director",
+      "parent": ".client__wrapper",
+      "id": 2
+    },
+    {
+      "src": "img/07/photo_3.png",
+      "alt": "photo_3",
+      "descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.",
+      "name": "Clips arter,  ",
+      "stelle": " Lipsum directer",
+      "parent": ".client__wrapper",
+      "id": 3
+    },
+    {
+      "src": "img/07/photo_4.png",
+      "alt": "photo_4",
+      "descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen book.",
+      "name": "Zam Cristafr,  ",
+      "stelle": "  manager",
+      "parent": ".client__wrapper",
+      "id": 4
+    },
+    {
+      "src": "img/07/photo_4.png",
+      "alt": "photo_4",
+      "descr": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen book.",
+      "name": "Zam Cristafr,  ",
+      "stelle": "  manager",
+      "parent": ".client__wrapper",
+      "id": 5
+    }
+  ],
+
   "requests": [
     {
       "name": "sdfsdf",

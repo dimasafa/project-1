@@ -1,5 +1,5 @@
 .client {
-    min-height: 908px;
+    height:auto;
     background-color: #ffc155;
     &__header {
         text-align: center;
@@ -28,9 +28,9 @@
         grid-template-columns: repeat(2, 567px);
         grid-template-rows: repeat(2, 241px);
         column-gap: 36px;
-        row-gap: 20px;
     }
     &__box {
+        margin-bottom: 20px;
         background-color: #ffffff;
         display: flex;
         img {
