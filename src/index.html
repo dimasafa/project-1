@@ -10,6 +10,7 @@
 
 
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -23,7 +24,7 @@
                             <li ><a href="#" class="promo__item">Home</a></li>
                             <li ><a href="#" class="promo__item">Service</a></li>
                             <li ><a href="#" class="promo__item">About us</a></li>
-                            <li ><a href="#" class="promo__item">Pricing Table</a></li>
+                            <li ><a href="#" class="promo__item">Pricing Tsable</a></li>
                             <li ><a href="#" class="promo__item">How it work</a></li>
                             <li ><a href="#" class="promo__item">Happy Clients</a></li>
                             <li ><a href="#" class="promo__item">Contact Us</a></li>
@@ -33,6 +34,12 @@
 
             </div>
         </div>
+        <div class="promo__hambuger">
+            <div class="promo__hambLine"></div>
+            <div class="promo__hambLine"></div>
+            <div class="promo__hambLine"></div>
+        </div>
+        
     </section>
 
     <section class="request">
@@ -64,6 +71,7 @@
                 </div>
             </div>
         </div>
+        <div class="promo__overlay"></div>
     </section>
 
     <section class="services">
@@ -192,13 +200,13 @@
             <div class="steps__wrapper">
                 <div class="steps__box">
                     <div class="steps__bilde">
-                        <img src="img/06/logo_1.png" alt="logo_1">
+                        <img src="img/06/logo_1.png" alt="logo_1" class="steps__bilde__logo">
                         <img src="img/06/link_1.png" alt="arrow_1" class="steps__bild-1">
-                        <img src="img/06/logo_2.png" alt="logo_2">
+                        <img src="img/06/logo_2.png" alt="logo_2" class="steps__bilde__logo-2">
                         <img src="img/06/link_2.png" alt="arrow_2" class="steps__bild-2">
-                        <img src="img/06/logo_3.png" alt="logo_3">
+                        <img src="img/06/logo_3.png" alt="logo_3" class="steps__bilde__logo">
                         <img src="img/06/link_3.png" alt="arrow_3" class="steps__bild-3">
-                        <img src="img/06/logo_4.png" alt="logo_4">
+                        <img src="img/06/logo_4.png" alt="logo_4" class="steps__bilde__logo">
                     </div>
                     <div class="steps__textBox">
                         <div class="steps__text">
@@ -230,46 +238,7 @@
             <div class="client__header">Happy Clients</div>
             <div class="client__subheader">We are explain who is using our business solutions</div>
             <div class="client__wrapper">
-                <div class="client__box">
-                    <img src="img/07/photo_1.png" alt="photo_1" class="client__img">
-                    <div class="client__text">
-                        <div class="client__descr">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make."</div>
-                        <div class="client__name">
-                            <div class="client__name-1">Darwin Michle,  </div>
-                            <div class="client__name-2">Project manager</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="client__box">
-                    <img src="img/07/photo_2.png" alt="photo_2" class="client__img">
-                    <div class="client__text">
-                        <div class="client__descr">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen book."</div>
-                        <div class="client__name">
-                            <div class="client__name-1">Madam Elisabath,  </div>
-                            <div class="client__name-2">Creative Director</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="client__box">
-                    <img src="img/07/photo_3.png" alt="photo_3" class="client__img">
-                    <div class="client__text">
-                        <div class="client__descr">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make."</div>
-                        <div class="client__name">
-                            <div class="client__name-1">Clips arter,  </div>
-                            <div class="client__name-2"> Lipsum directer</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="client__box">
-                    <img src="img/07/photo_4.png" alt="photo_4" class="client__img">
-                    <div class="client__text">
-                        <div class="client__descr">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrystandard dummy text ever since the 1500s, wen an unknown printer took a galley of type and scrambled to make a type specimen book."</div>
-                        <div class="client__name">
-                            <div class="client__name-1">Zam Cristafr,  </div>
-                            <div class="client__name-2">  manager</div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -344,6 +313,21 @@
             </div>
         </div>
     </div>
+
+    <div class="promo__hamMenu">
+        <ul>
+            <li ><a href="#" class="promo__hamItem">Home</a></li>
+            <li ><a href="#" class="promo__hamItem">Service</a></li>
+            <li ><a href="#" class="promo__hamItem">About us</a></li>
+            <li ><a href="#" class="promo__hamItem">Pricing Table</a></li>
+            <li ><a href="#" class="promo__hamItem">How it work</a></li>
+            <li ><a href="#" class="promo__hamItem">Happy Clients</a></li>
+            <li ><a href="#" class="promo__hamItem">Contact Us</a></li>
+        </ul>
+        <div class="promo__close">&times;</div>
+
+    </div>
+
     <script src="js/script.js"></script>
 </body>
 </html>

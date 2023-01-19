@@ -1,0 +1,1038 @@
+@media (max-width: 1450px) {
+    .about {
+        min-height: 480px;
+        &__text {
+            padding-top: 100px;
+        }
+        &__descr {
+            width: 410px;
+            text-align: justify;
+        }
+        &__photo {
+            width: 50vw;
+        }
+    }
+
+};
+
+@media (max-width: 1250px) {
+    .client {
+        &__header {
+            padding-top: 100px;
+        }
+        &__wrapper {
+            grid-template-columns: repeat(2, 500px);
+            grid-template-rows: repeat(2, auto);
+        }
+        &__box {
+            img {
+                margin-left: 20px;
+            }
+        }
+        &__text {
+            padding-left: 20px;
+        }
+        &__descr {
+            width: 300px;
+            padding-top: 25px;
+        }
+    }
+
+};
+
+
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        nav {
+            padding-left: 180px;
+            ul {
+                width: 670px;
+                li {
+                    .promo__item {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+    .request {
+        &__orderForm {
+            width: 900px;
+            input {
+                width: 220px;
+                font-size: 12px;
+            }
+            &__input_img2 {
+                left: 247px;
+            }
+            &__input_img3 {
+                left: 478px;
+            }
+        }
+        &__photo_active {
+            left: 258px;
+        }
+    }
+    .services {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(2, 400px);
+            grid-template-rows: repeat(3, 100px);
+            row-gap: 100px;
+            column-gap: 80px;
+        }
+    }
+    .about {
+        min-height: 400px;
+        &__text {
+            padding-top: 60px;
+            padding-left: 60px;
+        }
+    }
+    .price {
+        &__header {
+            padding-top: 100px;
+        }
+        &__wrapper {
+            width: 900px;
+            padding-left: 50px;
+        }
+        &__box {
+            width: 320px;
+            &__line-1, &__line-2, &__line-3 {
+                height: 1px;
+                width: 200px;
+            }
+        }
+        &__box_active {
+            width: 320px;  
+            &__line-1_active, &__line-2_active, &__line-3_active {
+                height: 1px;
+                width: 200px;
+            }
+        }
+    }
+    .steps {
+        min-height: 800px;
+        &__header {
+            padding-top: 100px;
+        }
+        &__bilde {
+            width: 700px;
+        }
+        &__textBox {
+            width: 830px;
+        }
+        &__text {
+            width: 190px;
+        }
+    }
+    .client {
+        &__wrapper {
+            padding-left: 20px;
+            grid-template-columns: repeat(2, 440px);
+            grid-template-rows: repeat(2, auto);
+        }
+        &__box {
+            padding-bottom: 10px;
+            img {
+                margin-left: 20px;
+            }
+        }
+        &__text {
+            padding-left: 20px;
+        }
+        &__descr {
+            width: 250px;
+        }
+    }
+    .karte {
+        &__header {
+            padding-top: 100px;
+        }
+        &__rund {
+            left: 350px;
+        }
+        &__logo {
+            left: 470px;
+        }
+        &__textbox {
+            left: 417px;
+        }
+    }
+
+};
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        nav {
+            padding-left: 100px;
+            ul {
+                width: 570px;
+                li {
+                    .promo__item {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+    .request {
+        &__orderForm {
+            width: 650px;
+            input {
+                width: 180px;
+                font-size: 12px;
+            }
+            &__input_img2 {
+                left: 206px;
+            }
+            &__input_img3 {
+                left: 397px;
+            }
+        }
+        &__photo_active {
+            left: 138px;
+        }
+        &__input_btn {
+            width: 80px;
+
+    
+            font-size: 10px;
+
+        }
+    }
+    .services {
+        &__wrapper {
+            display: grid;
+            grid-template-columns: repeat(1, 700px);
+            grid-template-rows: repeat(6, 100px);
+            row-gap: 40px;
+        }
+    }
+    .about {
+        min-height: 335px;
+        &__text {
+            padding-top: 30px;
+            padding-left: 30px;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 10px;
+            width: 300px;
+            padding-top: 10px;
+        }
+        &__btn {
+            margin-top: 20px;
+            width: 100px;
+            height: 35px;
+    
+            font-size: 11px;
+    
+        }
+
+    }
+    .price {
+        min-height: 820px;
+        &__wrapper {
+            width: 700px;
+        }
+        &__box {
+            width: 320px;
+            &__line-1, &__line-2, &__line-3 {
+                height: 1px;
+                width: 150px;
+            }
+
+        }
+        &__box_active {
+            width: 320px;  
+            &__line-1_active, &__line-2_active, &__line-3_active {
+                height: 1px;
+                width: 150px;
+            }
+        }
+
+    }
+    .steps {
+        min-height: 800px;
+        &__bilde {
+            width: 600px;
+        }
+        &__textBox {
+            width: 730px;
+        }
+        &__text {
+            width: 170px;
+        }
+    }
+    .client {
+        &__wrapper {
+            margin-left: 50px;
+            grid-template-columns: repeat(1, 600px);
+            grid-template-rows: repeat(4, auto);
+        }
+        &__box {
+            padding-bottom: 10px;
+            img {
+                margin-top: 23px;
+                margin-left: 20px;
+            }
+        }
+        &__text {
+            padding-left: 20px;
+        }
+        &__descr {
+            width: 400px;
+            text-align: justify;
+        }
+    }
+    .karte {
+        &__header {
+            padding-top: 80px;
+        }
+
+        &__orderForm {
+            width: 650px;
+            input {
+                height: 45px;
+            }
+            &__InputName {
+                width: 220px;
+            }
+            &__InputEmail {
+                width: 270px;
+            }
+            &__emailLogo {
+                left: 243px;
+            }
+        } 
+        &__input-btn {
+            width: 150px;
+        }
+
+        &__rund {
+            left: 250px;
+        }
+        &__logo {
+            left: 370px;
+        }
+        &__textbox {
+            left: 317px;
+        }
+    }
+
+    .footer {
+        min-height: 220px;
+        &__line {
+            margin-top: 20px;
+        }
+        nav{
+            width: 650px;
+            margin-top: 30px;
+            ul {
+                li{
+                    a{
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        &__bottom {
+            margin-top: 30px;
+        }
+    }
+};
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        nav {
+            display: none;
+        }
+        &__hambuger {
+            display: block;
+        }
+    }
+    .request {
+        min-height: 600px;
+        &__header {
+            font-size: 20px;
+            padding-top: 50px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__orderForm {
+            width: 500px;
+            input {
+                width: 145px;
+                height: 35px;
+                font-size: 12px;
+            }
+            &__input_img1 {
+                top: 12px;
+            }
+            &__input_img2 {
+                top: 12px;
+                left: 166px;
+            }
+            &__input_img3 {
+                top: 12px;
+                left: 317px;
+            }
+        }
+        &__input_btn {
+            width: 50px;
+            height: 35px;
+            font-size: 8px;
+        }
+        &__laptop__img {
+            width: 450px;
+        }
+        &__photo_active {
+            width: 310px;
+            top: 15px;
+            left: 115px;
+        }
+    }
+    .services {
+        &__header {
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 13px;
+            padding-top: 5px;
+        }
+        &__wrapper {
+            padding-left: 20px;
+            grid-template-columns: repeat(1, 500px);
+            grid-template-rows: repeat(6, 100px);
+            row-gap: 50px;
+        }
+        &__box {
+            padding-top: 53px;
+        }
+    }
+    .about {
+        min-height: 320px;
+        &__title {
+            font-size: 20px;
+        }
+        &__descr {
+            font-size: 8px;
+            line-height: 20px;
+            width: 220px;
+        }
+    }
+    
+    .price {
+        min-height: 600px;
+        &__header {
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        &__subheader {
+            padding-top: 5px;
+            font-size: 13px;
+        }
+
+
+        &__wrapper {
+            margin-top: 30px;
+            width: 500px;
+        }
+        &__box {
+            width: 166px;
+            height: 420px;
+            &__title {
+                padding-top: 30px;
+                font-size: 15px;
+            }
+            &__sum {
+                font-size: 40px;
+            }
+            &__line-1, &__line-2, &__line-3 {
+                width: 140px;
+            }
+            &__text-1, &__text-2, &__text-3 {
+                font-size: 11px;
+            }
+            &__btn {
+                margin-top: 20px;
+                width: 110px;
+                height: 35px;
+                font-size: 12px;
+            }
+    
+            &__title_active {
+                padding-top: 30px;
+                font-size: 15px;
+            }
+            &__sum_active {
+                font-size: 40px;
+            }
+            &__line-1_active, &__line-2_active, &__line-3_active {
+                width: 140px;
+            }
+            &__text-1_active, &__text-2_active, &__text-3_active {
+                font-size: 11px;
+            }
+        }
+        &__box_active {
+            width: 166px;
+            height: 450px; 
+        }
+    }
+
+    .steps {
+        min-height: 950px;
+        &__header {
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        &__subheader {
+            margin-top: 5px;
+            font-size: 13px;
+        }
+        &__bilde {
+            margin-top: 250px;
+            margin-left: -170px;
+            width: 550px;
+            transform: rotate(90deg);
+            &__logo {
+                transform: rotate(-90deg);
+            }
+        }
+
+        &__textBox {
+            margin-top: -370px;
+            margin-left: 260px;
+            flex-direction: column;
+        }
+        &__text {
+            width: 220px;
+        }
+        &__title {
+            padding-top: 70px;
+        }
+        &__btn {
+            margin-top: 50px;
+            width: 150px;
+            height: 40px;
+    
+            font-size: 12px;
+        }
+    }
+    .client {
+        &__header {
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        &__subheader {
+            padding-top: 5px;
+            font-size: 13px;
+        }
+        &__wrapper {
+            margin-left: 50px;
+            grid-template-columns: repeat(1, auto);
+            grid-template-rows: repeat(4, auto);
+        }
+        &__descr {
+            width: auto;
+            padding-right: 10px;
+        }
+    }
+    .karte {
+        &__header {
+            padding-top: 50px;
+            font-size: 20px;
+        }
+        &__subheader {        
+            padding-top: 5px;
+            font-size: 13px;
+        }
+
+        &__orderForm {
+            width: 400px;
+            input {
+                height: 35px;
+                font-size: 12px;
+            }
+            &__InputName {
+                width: 170px;
+            }
+            &__InputEmail {
+                width: 170px;
+            }
+            &__nameLogo {
+                left: 18px;
+                top: 10px;
+            }
+            &__emailLogo {
+                top: 11px;
+                left: 190px;
+            }
+        } 
+        &__input-btn {
+            width: 50px;
+            height: 35px;
+            font-size: 10px;
+        }
+
+        &__rund {
+            left: 150px;
+        }
+        &__logo {
+            left: 270px;
+        }
+        &__textbox {
+            left: 217px;
+        }
+    }
+
+    .footer {
+        min-height: 200px;
+        &__line {
+            margin-top: 20px;
+        }
+        nav{
+            width: 400px;
+            margin-top: 30px;
+            ul {
+                li{
+                    a{
+                        font-size: 8px;
+                    }
+                }
+            }
+        }
+        &__bottom {
+            height: 30px;
+            font-size: 10px;
+        }
+    }
+
+
+
+
+@media (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .promo {
+        min-height: 60px;
+        img {
+            width: 30px;
+            height: 30px;
+            margin-top: 15px;
+            margin-left: 20px;
+        }
+        &__hambuger {
+            top: 20px;
+            right: 25px;
+        }
+        &__hamMenu {
+            height: 100vh;
+            width: 80vw;
+            ul {
+                li {
+                    .promo__hamItem {
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .request {
+        min-height: 600px;
+        &__header {
+            font-size: 20px;
+            padding-top: 50px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__orderForm {
+            flex-direction: column;
+            width: 300px;
+            padding-left: 25px;
+            input {
+                width: 250px;
+                height: 35px;
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            &__input_img1 {
+                top: 10px;
+                left: 40px;
+            }
+            &__input_img2 {
+                top: 52px;
+                left: 40px;
+            }
+            &__input_img3 {
+                top: 92px;
+                left: 40px;
+            }
+        }
+        &__input_btn {
+            margin-top: 5px;
+            width: 250px;
+            height: 35px;
+            font-size: 15px;
+        }
+        &__laptop__img {
+            margin-top: 45px;
+            width: 250px;
+        }
+        &__photo_active {
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            width: 177px;
+            top: 5px;
+        }
+    }
+    .services {
+        margin-bottom: 50px;
+        &__header {
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        &__subheader {
+            font-size: 13px;
+            padding-top: 5px;
+        }
+        &__wrapper {
+            display: block;
+            margin: 0 auto;
+            grid-template-columns: repeat(1, 280px);
+            grid-template-rows: repeat(6, auto);
+            row-gap: 10px;
+        }
+        &__title {
+            font-size: 13px;
+        }
+        &__subtitle {
+            font-size: 12px;
+        }
+    }
+    .about {
+        min-height: 320px;
+        &__text {
+            padding-left: 20px;
+        }
+        &__title {
+            font-size: 13px;
+        }
+        &__descr {
+            font-size: 8px;
+            line-height: 20px;
+            width: 190px;
+        }
+        &__photo {
+            width: 30vw;
+            height: 100px;
+        }
+        &__btn {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: 25px;
+            font-size: 12px;
+        }
+    }
+    
+    .price {
+        min-height: 500px;
+        &__wrapper {
+            margin: 0 auto;
+            padding-left: 3px;
+            margin-top: 30px;
+            width: 300px;
+
+        }
+        &__box {
+            width: 100px;
+            height: 320px;
+            &__title {
+                padding-top: 10px;
+                font-size: 12px;
+            }
+            &__sum {
+                font-size: 30px;
+                padding-top: 10px;
+            }
+            &__per_month {
+                padding-top: 8px;
+                padding-bottom: 10px;
+                font-size: 12px;
+            }
+            &__line-1, &__line-2, &__line-3 {
+                width: 80px;
+            }
+            &__text-1, &__text-2, &__text-3 {
+                font-size: 9px;
+            }
+            &__btn {
+                margin-top: 20px;
+                width: 90px;
+                height: 25px;
+                font-size: 10px;
+            }
+    
+            &__title_active {
+                padding-top: 10px;
+                font-size: 12px;
+            }
+            &__sum_active {
+                font-size: 30px;
+                padding-top: 10px;
+            }
+            &__per_month_active {
+                padding-top: 8px;
+                padding-bottom: 10px;
+                font-size: 12px;
+            }
+            &__line-1_active, &__line-2_active, &__line-3_active {
+                width: 80px;
+            }
+            &__text-1_active, &__text-2_active, &__text-3_active {
+                font-size: 9px;
+            }
+        }
+        &__box_active {
+            width: 100px;
+            height: 350px; 
+        }
+    }
+
+    .steps {
+        min-height: 750px;
+        width: 100%;
+        &__header {
+            padding-top: 30px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        &__bilde {
+            margin-top: 50px;
+            margin-left: 0px;
+            width: 320px;
+            width: 40%;
+            &__logo {
+                width: 40%;
+            }
+            &__logo-2 {
+                transform: rotate(-90deg);
+                width: 30%;
+            }
+        }
+        &__bild-1, &__bild-3 {
+            width: 80%;
+        }
+        &__bild-2 {
+            width: 80%;
+        }
+
+        &__textBox {
+            margin-top: -170px;
+            margin-left: 50vw;
+            width: 50%;
+        }
+        &__text {
+            width: 140px;
+        }
+        &__title {
+            padding-top: 50px;
+            font-size: 13px;
+        }
+        &__descr {
+            margin-top: 10px;
+            font-size: 10px;
+            line-height: 14px;
+            text-align: justify;
+        }
+        &__btn {
+            width: 120px;
+            height: 30px;
+            font-size: 10px;
+            margin-left: 50vw;
+        }
+    }
+    .client {
+        &__header {
+            padding-top: 30px;
+        }
+        &__subheader {
+            font-size: 11px;
+        }
+        &__wrapper {
+            margin-top: 20px;
+            margin-left: -20px;
+            grid-template-columns: repeat(1, auto);
+            grid-template-rows: repeat(4, auto);
+        }
+        &__box {
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            display: flex;
+            width: 100%;
+            img {
+                align-self: flex-start;
+                width: 25%;
+                margin-top: 30px;
+                margin-left: 15px;
+            }
+        }
+        &__descr {
+            width: auto;
+            padding-right: 10px;
+            font-size: 10px;
+        }
+        &__name {
+            padding-top: 10px;
+        }
+        &__name-1 {
+            font-size: 8px;
+        }
+        &__name-2 {
+            padding-left: 5px;
+            font-size: 8px;
+        }
+
+    }
+    .karte {
+        min-height: 550px;
+        width: 100%;
+        &__header {
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        &__subheader {        
+            padding-top: 5px;
+            font-size: 11px;
+        }
+
+        &__orderForm {
+            width: 300px;
+            flex-direction: column;
+            input {
+                margin-left: 10px;
+                padding-left: 45px;
+                margin-bottom: 5px;
+            }
+            &__InputName {
+                width: 280px;
+            }
+            &__InputEmail {
+                width: 280px;
+            }
+            &__nameLogo {
+                left: 27px;
+                top: 10px;
+            }
+            &__emailLogo {
+                top: 51px;
+                left: 27px;
+            }
+        } 
+        &__input-btn {
+            margin-top: 10px;
+            margin-left: 20px;
+            width: 250px;
+        }
+        &__karte {
+            margin-left: -100px;
+            width: 150%;
+        }
+        &__adressbox {
+            display: block;
+            position: absolute;
+            top: 500px;
+            left: 300;
+        }
+        &__rund {
+            width: 220px;
+            left: 45px;
+            top: -220px;
+        }
+        &__logo {
+            width: 30px;
+            left: 140px;
+            top: 15px;
+        }
+        &__textbox {
+            left: 97px;
+            top: -170px;
+        }
+        &__text-1 {
+            font-size: 10px;
+        }
+        &__text-2 {
+            margin-top: 8px;
+            font-size: 10px;
+            line-height: 16px;
+        }
+        &__text-3 {
+            margin-top: 10px;
+            font-size: 10px;
+            line-height: 16px;
+        }
+    }
+
+    .footer {
+        min-height: 150px;
+        &__line {
+            margin-top: 30px;
+            width: 300px;
+        }
+        nav{
+            width: 300px;
+            margin-top: 15px;
+            ul {
+                li{
+                    a{
+                        font-size: 6px;
+                    }
+                }
+            }
+        }
+        &__phone {
+            margin-top: 5px;
+            img {
+                width: 12px;
+                padding-top: 6px;
+            }
+        }
+        &__phoneNummer {
+            padding-left: 7px;
+            font-size: 15px;
+        }
+        &__linkBox {
+            margin-top: 5px;
+        }
+        &__bottom {
+            height: 20px;
+            margin-top: 10px;
+            font-size: 6px;
+        }
+    }
+}
+}

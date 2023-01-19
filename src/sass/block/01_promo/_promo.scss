@@ -1,5 +1,10 @@
+body {
+    position: relative;
+}
+
 .promo {
     min-height: 93px;
+    position: relative;
     &__menu {
         display: flex;
         width: 1140px;
@@ -37,6 +42,77 @@
                 }
             }
         }
+    }
+
+    &__hambuger {
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+        display: none;
+    }
+    &__hambLine {
+        display: block;
+        height: 2px;
+        width: 30px;
+        margin-top: 4px;
+        background-color: black;
+    }
+
+    &__hamMenu {
+        position: absolute;
+        display: none;
+        height: 100vh;
+        width: 60vw;
+        background-color: #ffbb42;
+        top: 0;
+        left: 0;
+        padding-top: 150px;
+        z-index: 10;
+        ul {
+            list-style-type: none;
+            li {
+                :hover {
+                    background-color: #fff;
+                }
+                .promo__hamItem {
+                    display: block;
+                    margin: 0 auto;
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                    font-size: 25px;
+                    line-height: 24px;
+                    font-weight: 900;
+                    text-transform: uppercase;
+                    letter-spacing: -0.025em;
+                    color: #709dca;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    &__close {
+        position: absolute;
+        top: 8px;
+        right: 14px;
+        font-size: 30px;
+        color: #000;
+        opacity: .5;
+        font-weight: 700;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    &__overlay {
+        top: 0;
+        left: 0;
+        position: absolute;
+        display: none;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.5;
     }
 
 }
